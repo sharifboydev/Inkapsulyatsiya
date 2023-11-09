@@ -18,8 +18,16 @@ class Avto:
     def get_id(self):
         return self.__id
 
+    def add_km(self, km):
+        if km >= 0:
+            self.__km += km
+        else:
+            print("mashina km qaytarib bo'lmaydi.")
 
-avto1 = Avto("Gm", "Malibu", "oq", "2015", 40000, 10000)
 
-print(f"ID: {avto1.get_id()}")
-print(f"KM: {avto1.get_km()}")
+avto1 = Avto("Gm", "Malibu", "oq", "2015", 40000, 100000)
+avto1.add_km(15000)
+print(avto1.get_km())
+
+# print(f"ID: {avto1.get_id()}")
+# print(f"KM: {avto1.get_km()}")
