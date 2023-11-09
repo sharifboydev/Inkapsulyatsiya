@@ -31,3 +31,6 @@ print(avto1.get_km())
 
 print(f"ID: {avto1.get_id()}")
 print(f"KM: {avto1.get_km()}")
+
+x, y = 2, 3
+print(x>y)
