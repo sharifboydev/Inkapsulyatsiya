@@ -29,5 +29,5 @@ avto1 = Avto("Gm", "Malibu", "oq", "2015", 40000, 100000)
 avto1.add_km(15000)
 print(avto1.get_km())
 
-# print(f"ID: {avto1.get_id()}")
-# print(f"KM: {avto1.get_km()}")
+print(f"ID: {avto1.get_id()}")
+print(f"KM: {avto1.get_km()}")
